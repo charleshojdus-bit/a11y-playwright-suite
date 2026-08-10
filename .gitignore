@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache/build artifacts
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Playwright
+node_modules/
+playwright-report/
+test-results/
+
+# Reports / output (adjust if you want these tracked later)
+report.html
+*.log
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment variables (if you add any secrets/config later)
+.env
