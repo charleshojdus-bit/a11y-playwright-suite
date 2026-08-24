@@ -25,5 +25,10 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Environment variables (if you add any secrets/config later)
+# Environment variables (if you add any secrets/config)
 .env
+
+# Screenshot generated fresh on every test run — not meant to be version-controlled
+debug_screenshot.png
+
+
